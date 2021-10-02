@@ -14,7 +14,7 @@ document.addEventListener("keydown", (event) => {
         imgSRC = 'Up-R')
     : keyName === "ArrowRight" ? 
     ( boxLeft += 10,
-        imgSRC = 'Right-run')
+        imgSRC = 'Right-run' )
     : keyName === "ArrowDown" ? 
     ( boxTop += 10,
         imgSRC = 'Down')
@@ -33,8 +33,8 @@ document.addEventListener("keydown", (event) => {
 window.document.body.style.width = '100vw';
 window.document.body.style.height = '100vh';
 window.document.body.style.margin = 'auto';
-window.document.body.style.backgroundImage = "url('./assets/imgs/bg.png')"
+window.document.body.style.backgroundImage = "url('./assets/imgs/bg.png')";
 document.getElementById("box").style.backgroundImage = `${imgPRF}${imgSRC}${imgICR}`;
 document.getElementById("box").style.backgroundRepeat = "no-repeat";
 document.getElementById("box").style.backgroundPosition = "center";
-document.getElementById("box").style.backgroundSize = "30px";
+document.getElementById("box").style.backgroundSize = "35px";
